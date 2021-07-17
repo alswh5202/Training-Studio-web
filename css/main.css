@@ -43,6 +43,7 @@ body {overflow-x: hidden; overflow-y: auto;}
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	line-height: 80px;
+	margin-left: 20px;
 }
 
 .header .navbar .logo a {
@@ -207,8 +208,68 @@ body {overflow-x: hidden; overflow-y: auto;}
 
 }
 
+.main_banner .caption .main_btn:hover {
+	background-color: #fa7961;
+}
+
 .main_banner .caption .main_btn a{
 	color: #fff;
+}
+
+/* section */
+
+.section {
+
+}
+
+.section_header {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 140px;
+	margin-bottom: 80px;
+	
+
+}
+
+.section_header h2 {
+	color: #1e1e1e;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 20px;
+}
+
+.section_header h2 em {
+	color: #ed563b;
+}
+
+.section_header img {
+	display: block;
+	margin: 20px auto;
+
+}
+
+.section_header p {
+	font-size: 14px;
+	margin: 0 auto;
+	text-align: center;
+	color: #7a7a7a;
+	line-height: 25px;
+
+}
+
+.section_main {
+
+}
+
+.section_main .features_items {
+
+}
+
+.section_main .features_items .feature_item {
+	
 }
 
 /* responsive */
