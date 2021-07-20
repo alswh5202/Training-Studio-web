@@ -275,7 +275,7 @@ body {overflow-x: hidden; overflow-y: auto;}
 }
 .section_main .features_items .feature_item {
 
-	margin-bottom: 60px;
+	margin-bottom: 80px;
 }
 
 .section_main .feature_item .left_icon img {
@@ -309,7 +309,51 @@ body {overflow-x: hidden; overflow-y: auto;}
 	color: #ed563b;
 }
 
+/* sub section */
 
+.section_sub {
+	position: relative;
+	margin-top: 120px;
+	margin-bottom: 40px;
+	background: url(../images/cta-bg.jpg);
+	height: 400px;
+}
+
+.section_sub .banner_caption {
+	position: absolute;
+	top: 30%;
+	text-align: center;
+
+}
+
+.section_sub .banner_caption h4 {
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 12px;
+
+}
+
+.section_sub .banner_caption h4 em {
+	color: #ed563b;
+}	
+
+.section_sub .banner_caption p {
+	color: #fff;
+	font-weight: 300;
+	margin-bottom: 32px;
+
+}
+
+.section_sub .banner_caption a {
+	background-color: #ed563b;
+	margin-top: 40px;
+	padding: 12px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
 
 /* responsive */
 
