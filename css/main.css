@@ -316,7 +316,7 @@ body {overflow-x: hidden; overflow-y: auto;}
 .section_sub {
 	position: relative;
 	margin-top: 120px;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	background: url(../images/cta-bg.jpg);
 	height: 400px;
 }
@@ -360,7 +360,7 @@ body {overflow-x: hidden; overflow-y: auto;}
 /* classes */
 
 .classes {
-
+	margin-top: 120px;
 }
 .classes_header {
 	margin-bottom: 80px;
@@ -398,26 +398,41 @@ body {overflow-x: hidden; overflow-y: auto;}
 
 }
 
-.classes_main ul {
+.classes_main .classes_list {
+
+}
+
+.classes_main .classes_list ul {
 	
 }
 
-.classes_main ul li {
+.classes_main .classes_list ul li {
 	font-size: 20px;
 	font-weight: 500;
 	letter-spacing: 2px;
 	margin-bottom: 20px;
 }
 
-.classes_main ul li a {
+.classes_main .classes_list ul li a {
 	
 } 
 
-.classes_main ul li img {
+.classes_main .classes_list ul li img {
 	margin-right: 16px;
 } 
 
-.classes_main .schedul_btn {
+.classes_main .classes_list .schedule_btn {	
+	margin: 40px 0px;
+}
+
+.classes_main .classes_list .schedule_btn a {
+	background-color: #ed563b;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+	padding: 20px;
+	border-radius: 8px;
+	color: #fff;
 
 }
 
